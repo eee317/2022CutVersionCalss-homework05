@@ -1,0 +1,26 @@
+.nav-link {
+  position: relative;
+}
+.nav-link.active {
+  color: $success;
+  &::before{
+    content: '';
+    position: relative;
+    left: -24px;
+    height: 32px;
+    border-left: 4px solid #198754;
+    margin-right: -4px;
+  }
+}
+.logo {
+  padding-left: 12px;
+}
+aside {
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+}

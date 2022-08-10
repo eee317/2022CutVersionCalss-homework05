@@ -1,0 +1,141 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class=" main-layout padding-l-32px padding-r-32px pt-3">
+  <div class="dropdown">
+    <a class="btn dropdown-toggle d-flex p-0 align-items-center fw-bold" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+      All (4)<span class="ms-2 material-symbols-outlined text-success fw-bold fs-3">
+        keyboard_arrow_down
+        </span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  <div class="d-flex">
+    <div class="index-list me-3">
+      <div class="list-group">
+        <a href="#" class="list-group-item active p-3 list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 mb-1 justify-content-between">
+            <p class="mb-1">Chapter Assignment 2</p>
+            <small>4 hrs ago</small>
+          </div>
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1 fw-bold">Please check this file…</h5>
+            <small class="text-black-50">Emily Wang</small>
+          </div>
+        </a>
+        <a href="#" class="list-group-item p-3 list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 mb-1 justify-content-between">
+            <p class="mb-1">Chapter Assignment 1</p>
+            <small>12 hrs ago</small>
+          </div>
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1 fw-bold">My Homework</h5>
+            <small class="text-black-50">David Xu</small>
+          </div>
+        </a>
+        <a href="#" class="list-group-item p-3 list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 mb-1 justify-content-between">
+            <p class="mb-1">Final Assignment</p>
+            <small>18 hrs ago</small>
+          </div>
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1 fw-bold">Have a problem with this…</h5>
+            <small class="text-black-50">Tony Wei</small>
+          </div>
+        </a>
+        <a href="#" class="list-group-item p-3 list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 mb-1 justify-content-between">
+            <p class="mb-1">Final Assignment</p>
+            <small>19 hrs ago</small>
+          </div>
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1 fw-bold">Did I do it right?</h5>
+            <small class="text-black-50">Christina Lin</small>
+          </div>
+        </a>
+        </div>
+    </div>
+    <div class="index-card">
+      <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <div>
+            <p class="mb-1">Chapter Assignment 2 / HTML&CSS</p>
+            <h5 class="m-0">Featured</h5>
+          </div>
+          <a href="#">
+            <span class="material-symbols-outlined">more_vert
+            </span>
+          </a>
+        </div>
+        <div class="card-body d-flex flex-column">
+          <div class="d-flex">
+            <div class="card-left">
+              <img class="rounded-circle me-3 mt-2 object-fit-cover"
+              width="40" height="40"
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emilywang.jpeg?raw=true" alt="emilywang">
+            </div>
+            <div class="card-right">
+              <p class="card-title fw-bold m-0">Emily Wang</p>
+              <p class="card-text text-black-50">10:38 AM (4 hours ago)</p>
+              <p>
+                Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="text-success">div</span> is bigger than the height of the <span class="text-success">img</span>? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br> What is the gap or extra space below image?
+              </p>
+              <a href="#" class="d-flex p-2 align-items-center justify-content-start btn btn-light border border-2 fw-bold text-center card-btn" download="WH-David.zip">
+                <span class="material-symbols-outlined m-0">
+                attach_file
+                </span>HW-2-David.zip</a>
+              <hr>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="card-left">
+              <img class="rounded-circle me-3 mt-2 object-fit-cover"
+              width="40" height="40"
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true" alt="andychen">
+            </div>
+            <div class="card-right">
+              <p class="card-title fw-bold m-0">Andy Chen (You)</p>
+              <p class="card-text text-black-50">13:24 AM (1 hours ago)</p>
+              <p>
+                Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.　
+              </p>
+              <p>You can:</p>
+              <p class="text-indent-16px m-0">• adjust the <span class="text-success ">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="text-success">middle</span> ) or
+              <p class="text-indent-16px">
+                • change the <span class="text-success">display</span> so it isn’t inline.</p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mt-3">
+        <div class="page-direction">
+          <a href="#">
+            <span class="material-symbols-outlined rounded-circle fw-bold me-4">
+              navigate_before
+              </span>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined rounded-circle fw-bold">
+              navigate_next
+              </span>
+          </a>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn btn-outline-success fw-bold me-3">Mark as read</a>
+          <a href="#" class="btn btn-success fw-bold">Reply</a>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
